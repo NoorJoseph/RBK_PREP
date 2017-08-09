@@ -1,4 +1,5 @@
 function Fork(n){
-return n * n
+return n * Fork(n+1)
 }
+// bla bla bla
 
